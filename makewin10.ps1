@@ -2,7 +2,7 @@
 Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Making Windows 10 Great again"
 Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Importing registry keys..."
 regedit /s C:\Users\windows\Downloads\MakeWindows10GreatAgain.reg
-C:\Users\windows\Downloads
+
 # Remove OneDrive from the System
 Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Removing OneDrive..."
 $onedrive = Get-Process onedrive -ErrorAction SilentlyContinue
